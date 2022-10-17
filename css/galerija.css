@@ -1,0 +1,16 @@
+
+/* sve slike */
+.slike{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+/* pojedinacne slike */
+.slika10{
+    padding: 20px;
+    max-width: 400px;
+    height: 300px;
+}

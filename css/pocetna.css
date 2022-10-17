@@ -1,0 +1,154 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* dobrodosli u baloro */
+.welcome{
+    color: rgb(66, 75, 133);
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+
+    width: 100%;
+
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#baloro{
+    background-color: rgb(201, 231, 238);
+    font-size: 70px;
+    margin-left: 15px;
+    padding: 0px 15px;
+    height: 100px;
+    margin-top: 0px;
+    display: none;
+}
+
+/* ========================================================= */
+
+/* slike za meni */
+.slikeHrane{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.slika10{
+    height: 300px;
+    margin: 30px;
+}
+
+.slika10:hover{
+    border: 20px rgb(201, 231, 238) solid;
+    height: 350px;
+    padding: 15px;
+    margin: 0;
+    background-color: rgb(201, 231, 238);
+    transition: 0.5s ease;
+}
+
+/* pogledajte... */
+.vise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(66, 75, 133);
+    font-style: normal;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dugme10{
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 25px;
+    border: 2px rgb(66, 75, 133) solid;
+
+    font-size: larger;
+    font-weight: bold;
+
+    color: rgb(66, 75, 133);
+    background-color: rgb(201, 231, 238);
+    transition: 0.5s ease;
+}
+
+.dugme10:hover{
+    background-color: rgba(66, 75, 133, 0.925);
+    color: rgb(201, 231, 238);
+}
+
+
+.o-nama{
+    padding: 30px;
+    margin: 20px;
+
+    font-size: large;
+    font-style: italic;
+
+    background-color: rgb(201, 231, 238);
+}
+
+.rezervacija img{
+    width: 100%;
+}
+
+/* ========================================================= */
+
+/* prijava za newsletter */
+.newsletter{
+    background-color: rgb(201, 231, 238);
+    color: black;
+
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#new{
+    margin-bottom: 20px; 
+    font-size: large;
+}
+
+#new input{
+    width: 250px;
+    height: 27px;
+    border: 1px rgb(66, 75, 133) solid;
+    border-radius: 2px;
+    background-color: white;
+}
+
+#new-btn{
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+
+    font-size: medium;
+    font-weight: bold;
+
+    border-radius: 2px;
+    border: 2px rgb(66, 75, 133) solid;
+    background-color: rgb(66, 75, 133);
+    color: rgb(201, 231, 238);
+    transition: 0.5s ease;
+}
+
+#new-btn:hover{
+    background-color: rgb(66, 75, 133, 0.5);
+    color: white;
+    border: 2px rgb(66, 75, 133, 0.5) solid;
+}
+

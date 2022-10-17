@@ -1,0 +1,54 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ========================================================= */
+
+/* O NAMA div */
+.onama{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lokSlike{
+    height: 300px;
+    padding: 30px;
+    padding-bottom: 25px;
+}
+
+.tekst{
+    padding: 30px;
+    margin: 20px;
+
+    font-size: large;
+    font-style: italic;
+
+    background-color: rgb(201, 231, 238);
+}
+
+/* ========================================================= */
+
+/* LOKACIJA div */
+.lokacija{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   flex-wrap: wrap;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+/* kontakt */
+.kontakt{
+    padding-left: 30px;
+    align-content: center;
+}
+
+.pozdrav{
+    font-size: larger;
+    font-style: italic;
+    margin-top: 40px;
+    color: rgb(66, 75, 133);
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="slike/logo2.png"/>
+    <link rel="stylesheet" href="css/sve.css">
+    <link rel="stylesheet" href="css/rezervacije.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Baloro</title>
+</head>
+<body>
+    
+    <header class="meni" id="pocetak">
+        <ul>
+            <li class="logo"><img src="slike/logo1.jpg" alt=""></li>
+            <li class="meni-tabs"><a href="pocetna.html">POČETNA</a></li>
+            <li class="meni-tabs"><a href="meni.html">MENI</a></li>
+            <li class="meni-tabs"><a href="onama.html">O NAMA</a></li>
+            <li class="meni-tabs"><a href="rezervacija.html">REZERVACIJA</a></li>
+            <li class="meni-tabs"><a href="galerija.html">GALERIJA</a></li>
+        </ul>
+        <img src="slike/navbar.png" alt="" id="navbar">
+    </header>
+
+
+    <h1 class="naslov">REZERVACIJA</h1>
+
+    <div id="rez">
+            
+        <div class="slikeProstora">
+            <img src="slike/l1.jpeg" alt="" class="prostor">
+            <img src="slike/l3.jpeg" alt="" class="prostor">
+        </div>
+        
+        <div>
+        <form id="form" name="form"> 
+
+            <p>Rezervišite Vaš sto!</p>
+
+            <label for="ime">Ime</label> 
+            <input type="text" id="ime" name="ime" placeholder="" required> 
+
+            <br><br>
+            <label for="prezime">Prezime</label> 
+            <input type="text" id="prezime" name="prezime" placeholder="" > 
+
+            <br><br>
+            <label for="telefon">Telefon</label> 
+            <input type="tel" id="telefon" name="telefon" placeholder="" required> 
+
+            <br><br>
+            <label for="email">Email</label> 
+            <input type="email" id="email" name="email" placeholder=""> 
+
+            <br><br>
+            <label for="brojosoba">Broj osoba</label> 
+            <input type="number" id="brojosoba" name="brojosoba" placeholder="" min="1" max="20" required> 
+            
+            <br><br>
+            <label for="datum">Datum</label> 
+            <input type="date" id="datum" name="datum" required>  
+
+            <br><br>
+            <label for="vreme">Vreme</label> 
+            <input type="time" id="vreme" name="vreme" min="08:00" max="21:30" required> 
+            
+            <br><br>           
+            <label for="izaberi">Izaberite sto</label>             
+            <input type="radio" id="unutra" name="izaberi" value="unutra">            
+            <label for="unutra">Unutra</label>            
+            <input type="radio" id="napolju" name="izaberi" value="napolju">            
+            <label for="napolju">Napolju</label> 
+
+            <br><br>           
+            <label for="komentar">Dodatni komentar</label>            
+            <textarea id="komentar" name="komentar" placeholder="" style="height:90px; width:200px" ></textarea>              
+            
+            <br><br><br><br><br>
+            
+            <button type="submit" class="dugme" id="potvrdi">Potvrdi</button>
+            <button type="reset" class="dugme">Obriši</button>
+            
+            
+        </form>
+        
+        <button type="submit" id="dugme_vreme">Current Time</button>
+        </div>
+
+    </div>
+
+    
+
+    <footer>
+        <a href="https://www.instagram.com/baloro.cafe/"><img src="slike/insta3.png" alt="Slika se nije učitala" height="40"></a>
+        <p>Bulevar Mihaila Pupina 16a, Novi Beograd <br> <center>+381 11 4088781</center></p>
+       
+        <a href="#pocetak"><img src="slike/strelica7.png" alt="" height="50" id="strelica"></a>
+    </footer>
+
+
+    <script src="js/forma.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>

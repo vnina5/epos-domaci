@@ -1,0 +1,124 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ========================================================= */
+/* NASLOV */
+.naslov{
+    width: 300px;
+}
+
+/* ========================================================= */
+/* veliki div */
+#rez{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* div za slike */
+.slikeProstora{
+    max-width: 700px;
+    margin-top: 30px;
+}
+
+.prostor{
+    width: 580px;
+}
+
+/* ========================================================= */
+
+/* FORMA */
+form{
+    background-color: rgb(201, 231, 238);
+    color: rgb(66, 75, 133);
+    border: 1px rgb(66, 75, 133) solid;
+
+    width: 400px;
+    height: 670px;
+
+    padding: 30px;
+    padding-top: 0px;
+    margin-top: 30px;
+}
+
+form input, textarea{
+    width: 200px;
+    margin-right: 20px;
+    float: right;
+    border: 1.9px rgb(66, 75, 133) solid;
+    border-radius: 0px;
+}
+
+form input:hover, textarea:hover{
+    border: 1.9px solid black;
+    border-radius: 2px;
+    transition: 0.7s ease;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* radio */
+#unutra{
+    width: 50px;
+    float: none;
+    margin-right: 0px;
+    margin-left: 50px;
+}
+#napolju{
+    width: 50px;
+    float: none;
+    margin-right: 0px;
+}
+
+
+.dugme{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    margin-left: 60px;
+    border-radius: 0px;
+    border: 1px rgb(66, 75, 133) solid;
+    font-size: medium;
+    color: rgb(66, 75, 133);
+    background-color: white;
+    transition: 0.7s ease;
+}
+
+.dugme:hover{
+    background-color: rgba(66, 75, 133, 0.925);
+    color: white;
+}
+
+/* rezervisite vas sto */
+form p{
+    text-align: center;
+    font-size: 23px;
+    font-style: italic;
+    margin: 25px;
+}
+
+/* ========================================================= */
+
+/* TRENUTNO VREME */
+#dugme_vreme{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+
+    border-radius: 0px;
+    border: 1px rgb(66, 75, 133) solid;
+
+    font-size: large;
+
+    color: rgb(66, 75, 133);
+    background-color: rgb(201, 231, 238);
+    transition: 0.5s ease;
+}
+
+#dugme_vreme:hover{
+    background-color: rgba(66, 75, 133, 0.925);
+    color: white;
+}
+
+
